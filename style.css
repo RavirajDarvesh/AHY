@@ -1,0 +1,152 @@
+.nav-flex{
+    display:flex;
+    background-color: #f5f5f5;
+    justify-content:space-around;
+    
+}
+.nav li,.social-icons li{
+    display: inline;    
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Quicksand-Regular, Quicksand-Regular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 20px;
+    color: rgba(10, 10, 10, 255);
+    
+}
+.brand{
+    margin: 12px 0 12px 0px;
+}
+.nav{
+    margin: 20px 0 20px 80px;
+}
+.nav a{
+    
+    color: black;
+}
+.nav a:hover{
+    border-bottom: 3px;
+    border-bottom-color: darkorange;
+    border-bottom-style: solid;
+    padding-bottom: 3px;
+}
+
+.box
+{
+    align-content: center;
+    color: #424242;
+    background-color: white;
+    font-size: 20px;
+    opacity: 0.7;
+    height: 250px;
+    margin-left: 400px;
+    margin-top: 200px;
+    width: 700px;
+}
+.box p,h1 {
+    margin-top: 40px;
+    margin-bottom:0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.mid-flx{
+    height: 450px;
+    display:flex;
+    flex-wrap: wrap;
+    color: gray;
+}
+.lef-flx{
+    color: gray;
+    flex: 1;
+    flex-basis: 43%;
+    justify-content:space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+.cen-flx{
+    flex: 1;
+     max-height:392px;
+    flex-basis: 12.5%;
+}
+
+.rig-flx{
+    display: flex;
+    
+    flex-direction: column;
+    color: gray;
+    flex: 1;
+    flex-basis: 44%;
+    justify-content:space-around;
+}
+
+.box-1,.box-2,.box-3,.box-4{
+    align-content: center;
+    margin:auto;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+  
+@media(max-width:768px)
+{
+    .container{
+        width: 100%;
+    }
+   .nav-flex{
+      width: 100%;
+      flex-flow:wrap;
+    
+    }
+    .box{
+        margin-left: 20px;
+        margin-right: 20px;
+        width: auto;
+    }
+    .nav{
+        margin-left: 20px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .social-icons{
+        margin-bottom: 0;
+        margin-top: 0;
+        margin-left: 40px;
+    }
+    .brand{
+    margin-bottom: 0;
+    }
+    .mid-flx{
+        flex-wrap:wrap;
+        height: auto;
+        
+    }
+    .lef-flx{
+        width: 100%;
+        margin-left: 120px;
+        margin-right: 120px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        
+    }
+    
+    .rig-flx{
+        width: 100%;
+        margin-left: 120px;
+        margin-right: 120px;
+        flex-wrap: wrap;
+        margin-top: 60px;
+        
+    }
+    .cen-flx{
+        height:100%;
+        margin-left:142px;
+        margin-right:143px;
+    }
+    
+    .box-1,.box-2,.box-3,.box-4{
+        margin: 0;
+    }
+    
+}
